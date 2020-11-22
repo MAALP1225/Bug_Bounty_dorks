@@ -1,0 +1,28 @@
+intext:responsible disclosure bounty
+inurl: private bugbountyprogram
+inurl:/.well-known/security ext:txt
+inurl:/.well-known/security ext:txt intext:hackerone
+inurl:/.well-known/security ext:txt -hackerone -bugcrowd -synack -openbugbounty
+inurl:reporting-security-issues
+inurl:security-policy.txt ext:txt
+site:*.*.* inurl:bug inurl:bounty
+site:help.*.* inurl:bounty
+site:support.*.* intext:security report reward
+intext:security report monetary inurl:security 
+intext:security report reward inurl:report
+site:security.*.* inurl: bounty
+site:*.*.de inurl:bug inurl:bounty
+site:*.*.uk intext:security report reward
+site:*.*.cn intext:security report reward
+"vulnerability reporting policy"
+"van de melding met een minimum van een" -site:responsibledisclosure.nl
+inurl:/security ext:txt "contact"
+inurl:responsible-disclosure-policy
+"Submission Form powered by Bugcrowd" -bugcrowd.com
+"If you believe you've found a security vulnerability"
+intext:"BugBounty" and intext:"BTC" and intext:"reward"
+intext:bounty inurl:/security
+inurl:"bug bounty" and intext:"€" and inurl:/security
+inurl:"bug bounty" and intext:"$" and inurl:/security
+inurl:"bug bounty" and intext:"INR" and inurl:/security
+inurl:/security.txt "mailto*" -github.com  -wikipedia.org -portswigger.net -magento
